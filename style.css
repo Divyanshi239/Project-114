@@ -1,0 +1,21 @@
+.btn-info {
+    font-size: 25px;
+}
+
+.btn-success:hover {
+    background-color: chartreuse;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {box-shadow: 1px 1px 38px rgb(221, 111, 255);}
+    25% {box-shadow: 1px 1px 38px rgb(208, 76, 248);}
+    50% {box-shadow: 1px 1px 38px rgb(161, 63, 226);}
+    75% {box-shadow: 1px 1px 38px rgb(208, 76, 248);}
+    100% {box-shadow: 1px 1px 38px rgb(221, 111, 255);}
+}
